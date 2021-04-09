@@ -8,9 +8,10 @@ Network flow generation is important under different network analysis scenarios.
   <li>dataset_dtypes: the data types for the features</li>
   <li>generated_features: the features to generate for new flows</li>
 </ul>  
-The dataset used in our experiment is [UNSW-NB15](https://ieeexplore.ieee.org/document/7348942), which is a dataset for network security.  
-The hyper-parameters for NF-GAN architecture are also stored in the file (/conf/params.json). The training procedure of NF-GAN follows the suggestions from [ganhacks](https://github.com/soumith/ganhacks)  
+The dataset used in our experiment is [UNSW-NB15](https://ieeexplore.ieee.org/document/7348942), which is a dataset for network security. 
+The hyper-parameters for NF-GAN architecture are also stored in the file (/conf/params.json). The training procedure of NF-GAN follows the suggestions from [ganhacks](https://github.com/soumith/ganhacks) 
 
+<br><br>
 To run the code:  
 ```
 python seq_gan.py
