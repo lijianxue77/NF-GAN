@@ -11,7 +11,7 @@ Network flow generation is important under different network analysis scenarios.
 The dataset used in our experiment is [UNSW-NB15](https://ieeexplore.ieee.org/document/7348942), which is a dataset for network security. 
 The hyper-parameters for NF-GAN architecture are also stored in the file (/conf/params.json). The training procedure of NF-GAN follows the suggestions from [ganhacks](https://github.com/soumith/ganhacks) 
 
-<br><br>
+<br>
 To run the code:  
 ```
 python seq_gan.py
